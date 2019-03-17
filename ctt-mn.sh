@@ -39,12 +39,12 @@ read DOSETUPTWO
 if [[ $DOSETUPTWO =~ "y" ]] ; then
 
 cryptoinvest-cli stop > /dev/null 2>&1
-wget https://github.com/CTTDeveloperTeam/CTTCoin/releases/download/v1.1/CryptoInvest-1.1.0-x86_64-pc-linux-gnu.zip -O CryptoInvest-1.1.0-x86_64-pc-linux-gnu.zip
-unzip CryptoInvest-1.1.0-x86_64-pc-linux-gnu.zip
+wget https://github.com/CTTDeveloperTeam/CTTCoin/releases/download/v1.1/https://github.com/CTTDeveloperTeam/CTTCoin/releases/download/v1.2.0/CTTCoin-1.2.0-x86_64-pc-linux-gnu.zip -O CTTCoin-1.2.0-x86_64-pc-linux-gnu.zip
+unzip CTTCoin-1.2.0-x86_64-pc-linux-gnu.zip
 mv cryptoinvestd /usr/local/bin/cryptoinvestd
 mv cryptoinvest-cli /usr/local/bin/cryptoinvest-cli
 chmod +x /usr/local/bin/cryptoinvest*
-rm -rf CryptoInvest-1.1.0-x86_64-pc-linux-gnu.zip
+rm -rf CTTCoin-1.2.0-x86_64-pc-linux-gnu.zip
 
 fi
 
